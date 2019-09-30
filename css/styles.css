@@ -95,6 +95,21 @@ section {
     transition: ease 0.3s all;
 }
 
+
+@media only screen 
+    and (min-width: 320px) 
+    and (max-width: 667px) {
+        .menu__item {
+            width: 100%;
+            text-align: center;
+        }
+
+        #navbar__list {
+            padding: 0;
+        }
+
+}
+
 /* Header Styles */
 .page__header {
     background: #fff;
